@@ -1,15 +1,14 @@
-import 'package:firebase_core/firebase_core.dart';
+// @dart=2.9
+
 import 'package:flutter/material.dart';
 import 'package:hackathon/home.dart';
-
-import 'firebase_options.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -29,14 +28,7 @@ class MyApp extends StatelessWidget {
               onBackground: Colors.white,
               surface: Colors.black,
               onSurface: Colors.white)),
-      home: FutureBuilder(builder: (context, snapshot) {
-        if (snapshot.hasData) {
-          return const Home();
-        } else {
-          return const CircularProgressIndicator();
-        }
-        ;
-      }),
+      home: const Home(),
     );
   }
 }

@@ -36,15 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   health: ^4.5.0
   font_awesome_flutter: ^10.4.0
-  enough_ascii_art: ^1.1.0
-  image: ^4.0.15
   google_fonts: ^1.1.2
-  platform: ^3.1.0
   animated_text_kit: ^4.2.2
-  shared_preferences: ^2.0.18
   numberpicker: ^2.1.1
-  firebase_core: ^2.7.0
-  cloud_firestore: ^4.4.3
 
 dev_dependencies:
   flutter_test:
