@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138266817479",
+    "project_id": "health-cli",
+    "storage_bucket": "health-cli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138266817479:android:1201b28bbc64e8883b9fe2",
+        "android_client_info": {
+          "package_name": "com.example.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138266817479-bd6hurcm3fbm8i9r4rqm5qpamossngql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChMtXPCl7XDtgnlTvpmux5qdkxPKvYQSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138266817479-bd6hurcm3fbm8i9r4rqm5qpamossngql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
